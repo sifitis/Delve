@@ -1,0 +1,13 @@
+{
+    "criteria":{
+        "did_click":{
+            "trigger":"minecraft:player_interacted_with_entity",
+            "conditions":{
+                "entity":{"type":"interaction"}
+            }
+        }
+    },
+    "rewards":{
+        "function": "delve:util/iet/right"
+    }
+}
