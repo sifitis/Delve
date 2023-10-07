@@ -4,3 +4,4 @@
 
 
 execute as @s[tag=pendulum] at @s run function delve:traps/pendulum/tick
+execute as @s[tag=spike_plate] at @s run function delve:traps/spike_plate/tick
